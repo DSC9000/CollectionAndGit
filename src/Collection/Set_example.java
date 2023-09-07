@@ -23,6 +23,10 @@ public class Set_example {
         setLinked.addAll(list);
         System.out.println(setLinked);
 
+        //Stack example :
+
+
+
 
     }
 }
