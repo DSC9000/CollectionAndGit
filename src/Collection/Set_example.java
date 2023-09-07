@@ -28,6 +28,10 @@ public class Set_example {
          setTree.addAll(list);
         System.out.println(" TreeSet  no null cos it has comparable "+setTree); // this  will be sorted [a, b, f, q, t, x, z]
 
+        //Stack example :
+
+
+
 
     }
 }
