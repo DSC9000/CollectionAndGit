@@ -17,6 +17,8 @@ public class Set_example {
         setHash.addAll(list);
         System.out.println(setHash);
         //[a, q, b, t, f, x, z]
+        Set<String> setLinked =new LinkedHashSet<>();
+        
 
     }
 }
