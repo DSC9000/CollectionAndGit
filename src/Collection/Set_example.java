@@ -16,12 +16,17 @@ public class Set_example {
        //HashSet
         Set <String>setHash =new HashSet<>(); //takes out duplicates
         setHash.addAll(list);
-        System.out.println(setHash);
+        System.out.println("setHash takes out duplicates " + setHash);
         //[a, q, b, t, f, x, z]
         //LinkedHash keeps insertion order
         Set<String> setLinked =new LinkedHashSet<>();
         setLinked.addAll(list);
-        System.out.println(setLinked);
+        System.out.println("LinkedHash keeps insertion order "+setLinked);
+
+        //TREE SET
+         Set<String> setTree =new TreeSet<>();
+         setTree.addAll(list);
+        System.out.println(" TreeSet  no null cos it has comparable "+setTree); // this  will be sorted [a, b, f, q, t, x, z]
 
 
     }
