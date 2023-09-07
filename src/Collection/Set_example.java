@@ -1,6 +1,7 @@
 package Collection;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Set;
 
@@ -12,5 +13,6 @@ public class Set_example {
         String str ="abbbatzxxxxxfffffqqqq";
 
         List<String>list =new ArrayList<>();
+        list.addAll(Arrays.asList(str.split("")));
     }
 }
